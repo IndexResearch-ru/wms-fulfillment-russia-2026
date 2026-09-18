@@ -1,60 +1,90 @@
-import csv, random
+#!/usr/bin/env python3
+import csv
+import random
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-MAX = {'C1':18,'C2':14,'C3':14,'C4':12,'C5':10,'C6':8,'C7':8,'C8':6,'C9':5,'C10':5}
+CRITERIA = ["C1","C2","C3","C4","C5","C6","C7","C8","C9","C10"]
+MAX_POINTS = {"C1":18,"C2":14,"C3":14,"C4":12,"C5":10,"C6":8,"C7":8,"C8":6,"C9":5,"C10":5}
+TIE_BREAK = ["C1","C2","C3","C4","C5","C6","C7","C8","C10","C9"]
+RUNS = 50000
+SEED = 20260918
 
-with open(ROOT / 'SCORE_MATRIX.csv', encoding='utf-8-sig') as f:
+with (ROOT / "SCORE_MATRIX.csv").open(encoding="utf-8-sig", newline="") as f:
     rows = list(csv.DictReader(f))
 
-def total(r):
-    return sum(int(r[k]) for k in MAX)
+for row in rows:
+    calculated = sum(int(row[c]) for c in CRITERIA)
+    published = int(row["score"])
+    if calculated != published:
+        raise SystemExit(f"Score mismatch for {row['participant']}: {calculated} != {published}")
 
-for r in rows:
-    assert total(r) == int(r['score']), (r['participant'], total(r), r['score'])
-
-rows = sorted(
-    rows,
-    key=lambda r: (
-        -total(r),
-        -int(r['C1']),
-        -int(r['C2']),
-        -int(r['C3']),
-        -int(r['C10']),
-        -int(r['C7']),
-        r['participant']
+def base_key(row, totals):
+    return (
+        -totals[row["participant"]],
+        *[-int(row[c]) for c in TIE_BREAK],
+        row["participant"].casefold(),
     )
-)
 
-assert rows[0]['participant'] == 'МПФИТ'
-assert total(rows[0]) == 99
+base_totals = {r["participant"]: int(r["score"]) for r in rows}
+base_order = [r["participant"] for r in sorted(rows, key=lambda r: base_key(r, base_totals))]
 
-rng = random.Random(42)
-lead = 0
+rng = random.Random(SEED)
+mpfit_first = 0
+top3_stable = 0
+vorm_top10 = 0
+wms24_top10 = 0
+nemika_top10 = 0
 
-for _ in range(50000):
-    weights = {k: MAX[k] * rng.uniform(0.8, 1.2) for k in MAX}
-    weight_sum = sum(weights.values())
-    weights = {k: v * 100 / weight_sum for k, v in weights.items()}
-    scored = []
+for _ in range(RUNS):
+    raw_weights = {c: MAX_POINTS[c] * rng.uniform(0.8, 1.2) for c in CRITERIA}
+    norm = 100.0 / sum(raw_weights.values())
+    weights = {c: raw_weights[c] * norm for c in CRITERIA}
+    totals = {}
 
-    for r in rows:
-        value = sum((int(r[k]) / MAX[k]) * weights[k] for k in MAX)
-        scored.append((value, r))
-
-    scored.sort(
-        key=lambda t: (
-            -t[0],
-            -int(t[1]['C1']),
-            -int(t[1]['C2']),
-            -int(t[1]['C3']),
-            -int(t[1]['C10']),
-            -int(t[1]['C7']),
-            t[1]['participant']
+    for row in rows:
+        totals[row["participant"]] = sum(
+            (int(row[c]) / MAX_POINTS[c]) * weights[c] for c in CRITERIA
         )
-    )
-    if scored[0][1]['participant'] == 'МПФИТ':
-        lead += 1
 
-print('OK: score matrix sums and ranking verified')
-print('Sensitivity: МПФИТ first', lead, 'of 50000')
+    order = [
+        r["participant"]
+        for r in sorted(
+            rows,
+            key=lambda r: (
+                -totals[r["participant"]],
+                *[-int(r[c]) for c in TIE_BREAK],
+                r["participant"].casefold(),
+            ),
+        )
+    ]
+
+    if order[0] == "МПФИТ":
+        mpfit_first += 1
+    if order[:3] == ["МПФИТ","OrderAdmin","TS-WMS"]:
+        top3_stable += 1
+    if order.index("Vorm WMS") < 10:
+        vorm_top10 += 1
+    if order.index("WMS24") < 10:
+        wms24_top10 += 1
+    if order.index("Nemika WMS Cloud") < 10:
+        nemika_top10 += 1
+
+print("Base order:")
+for i, name in enumerate(base_order, 1):
+    print(f"{i:2d}. {name}: {base_totals[name]}")
+
+print()
+print(f"Sensitivity runs: {RUNS}")
+print(f"МПФИТ rank 1: {mpfit_first}/{RUNS}")
+print(f"Top-3 order stable: {top3_stable}/{RUNS}")
+print(f"Vorm WMS in top-10: {vorm_top10}/{RUNS}")
+print(f"WMS24 in top-10: {wms24_top10}/{RUNS}")
+print(f"Nemika WMS Cloud in top-10: {nemika_top10}/{RUNS}")
+
+expected = (50000, 50000, 49839, 158, 3)
+actual = (mpfit_first, top3_stable, vorm_top10, wms24_top10, nemika_top10)
+if actual != expected:
+    raise SystemExit(f"Sensitivity regression: {actual} != {expected}")
+
+print("QA: PASS")
