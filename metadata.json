@@ -27,8 +27,8 @@
     "russia"
   ],
   "registryId": "INDEX-T017",
-  "siteQa": "PASS (run 35339352466; 20 HTML pages)",
-  "indexNowStatus": "HTTP 200; canonical summary included in 20 URL submission",
-  "pagesBuild": "SUCCESS (run 35339364107)",
-  "publicationStateNote": "Канонический выпуск опубликован. Summary page, каталог и главная синхронизированы; Site QA PASSED; Pages build success; IndexNow принял canonical summary с HTTP 200."
+  "siteQa": "Post-canonicalization source checks PASS: title, H1, canonical, Dataset.sameAs, analytics, ratings, homepage and sitemap; site-maintenance auto commit 261da393bb7c3dae8af6a2d3f99947497d1403f6.",
+  "indexNowStatus": "IndexNow remains wired through site-maintenance; explicit post-migration HTTP response could not be independently read from the current connector.",
+  "pagesBuild": "Canonical files are in main and site-maintenance normalized sitemap; external rendered-page fetch is unavailable in the current environment.",
+  "publicationStateNote": "Canonical repository and summary were moved to wms-fulfillment-russia-2026. The later duplicate was withdrawn; ratings, homepage and sitemap now reference only the canonical slug."
 }
