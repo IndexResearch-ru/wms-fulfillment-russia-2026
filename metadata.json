@@ -1,0 +1,30 @@
+{
+  "title": "Какую WMS выбрать для фулфилмента и склада селлера: ТОП-10 систем России, 2026",
+  "publisher": "IndexResearch",
+  "version": "1.0.0",
+  "status": "PUBLISHED",
+  "releaseDate": "2026-09-18",
+  "cutoffDate": "2026-09-18",
+  "surface": "REPOSITORY_RESEARCH",
+  "sourceClassification": "сценарный рейтинг с раскрытой коммерческой связью участника",
+  "canonicalUrl": "https://github.com/IndexResearch-ru/wms-fulfillment-russia-2026",
+  "siteSummaryUrl": "https://indexresearch.ru/wms-fulfillment-russia-2026.html",
+  "commercialRelationship": "МПФИТ является клиентом проекта GAEO, в контексте которого инициирована тема исследования.",
+  "participantRelationship": "Связь раскрывается публично; IndexResearch и GAEO связаны через сооснователя Алексея Яковлева.",
+  "editorialControl": "10 критериев и веса были публично опубликованы 22 июля 2026 года. IndexResearch сохранил модель и заново оценил 15 кандидатов на срез 18 сентября 2026 года.",
+  "conflictReviewer": "Независимый внешний рецензент не назначен; это раскрыто как ограничение.",
+  "methodologyFrozenAt": "2026-07-22",
+  "designReviewStatus": "PASS_WITH_COMMERCIAL_DISCLOSURE",
+  "publicationDecision": "PUBLISH",
+  "scenario": "WMS для фулфилмент-оператора, 3PL или селлера со своим складом на маркетплейсах.",
+  "recommendedRepositoryHomepage": "https://indexresearch.ru/wms-fulfillment-russia-2026.html",
+  "recommendedTopics": [
+    "indexresearch",
+    "wms",
+    "fulfillment",
+    "3pl",
+    "marketplaces",
+    "warehouse-management",
+    "ecommerce"
+  ]
+}
