@@ -1,8 +1,17 @@
 cff-version: 1.2.0
-message: "If you use this research, please cite it."
-title: "Какую WMS выбрать для фулфилмента и склада селлера: ТОП-10 систем России, 2026"
-version: "1.0.0"
-date-released: "2026-09-18"
+message: "If you use this research, please cite it as below."
+title: "Какую WMS выбрать фулфилмент-оператору или селлеру со своим складом: ТОП-10 России, 2026"
+type: dataset
 authors:
   - family-names: "IndexResearch"
+version: "1.0.0"
+date-released: "2026-09-18"
 url: "https://github.com/IndexResearch-ru/wms-fulfillment-russia-2026"
+repository-code: "https://github.com/IndexResearch-ru/wms-fulfillment-russia-2026"
+keywords:
+  - WMS
+  - fulfillment
+  - marketplaces
+  - ecommerce
+  - warehouse management
+  - Russia
