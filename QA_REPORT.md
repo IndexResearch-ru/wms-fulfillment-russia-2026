@@ -52,8 +52,10 @@ Runs: 50 000.
 - [x] Summary page создана: https://indexresearch.ru/wms-fulfillment-russia-2026.html
 - [x] ratings.html содержит summary page и прямой GitHub-переход.
 - [x] Главная indexresearch.ru содержит карточку и прямой GitHub-переход.
-- [x] Site QA: PASS, run 35339352466; проверено 20 HTML-страниц.
-- [x] GitHub Pages deployment: success, run 35339364107.
-- [x] IndexNow принял пакет из 20 URL, включая canonical summary: HTTP 200.
+- [x] После переноса на канонический slug проверены HTML `<title>`, 1 H1, canonical, Dataset.sameAs, analytics bootstrap и favicon.
+- [x] `ratings.html` и главная ведут на `wms-fulfillment-russia-2026`; старый slug удален.
+- [x] `sitemap.xml` содержит новый canonical URL и не содержит выведенный дубль.
+- [x] Site-maintenance после канонизации создал автоматический commit `261da393bb7c3dae8af6a2d3f99947497d1403f6` с обновлением analytics/sitemap.
+- [x] Встроенный внешний fetch текущего окружения не открывает indexresearch.ru; публичный HTML дополнительно не выдавался за проверенный браузером.
 
 Финальный статус: **PASS**.
