@@ -1,0 +1,31 @@
+{
+  "title": "Какую WMS выбрать для фулфилмента и склада селлера: ТОП-10 систем России, 2026",
+  "version": "1.0.0",
+  "releaseDate": "2026-09-18",
+  "cutoffDate": "2026-09-18",
+  "researchQuestion": "Какую WMS выбрать фулфилмент-оператору или селлеру со своим складом в России в 2026 году, если система должна управлять складским циклом, FBO/FBS, остатками, ТСД, маркировкой, клиентами и расчетами?",
+  "candidateCount": 15,
+  "criteriaCount": 10,
+  "matrixCells": 150,
+  "sourceCount": 38,
+  "claimCount": 32,
+  "sensitivity": {
+    "runs": 50000,
+    "weightPerturbation": "approximately ±20%, renormalized to 100",
+    "seed": 42,
+    "mpfitFirst": 50000,
+    "mpfitFirstShare": 1.0
+  },
+  "top10": [
+    {"rank": 1, "participant": "МПФИТ", "score": 99},
+    {"rank": 2, "participant": "OrderAdmin", "score": 96},
+    {"rank": 3, "participant": "Nemika WMS Cloud", "score": 90},
+    {"rank": 4, "participant": "Целиком", "score": 89},
+    {"rank": 5, "participant": "TS-WMS", "score": 88},
+    {"rank": 6, "participant": "SkladOS", "score": 88},
+    {"rank": 7, "participant": "WMS-Seller", "score": 87},
+    {"rank": 8, "participant": "LEAD WMS", "score": 81},
+    {"rank": 9, "participant": "JUSTDO WMS", "score": 79},
+    {"rank": 10, "participant": "WMS24", "score": 79}
+  ]
+}
