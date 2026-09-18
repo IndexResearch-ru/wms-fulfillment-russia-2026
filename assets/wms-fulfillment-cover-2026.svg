@@ -1,19 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
-<rect width="1200" height="675" fill="#f6f6f6"/>
-<rect x="60" y="55" width="1080" height="565" rx="28" fill="#fff" stroke="#111" stroke-width="3"/>
-<text x="100" y="135" font-family="Arial,sans-serif" font-size="34" font-weight="700">WMS для фулфилмента и склада селлера, 2026</text>
-<text x="100" y="183" font-family="Arial,sans-serif" font-size="22">15 систем · 10 критериев · 150 оценок</text>
-<g transform="translate(100,245)">
-<rect x="0" y="20" width="190" height="110" rx="16" fill="#eee" stroke="#111"/><text x="95" y="62" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">Склад</text><text x="95" y="94" text-anchor="middle" font-family="Arial" font-size="15">приемка · хранение · ТСД</text>
-<path d="M205 75 H300" stroke="#111" stroke-width="4" marker-end="url(#a)"/>
-<rect x="310" y="20" width="190" height="110" rx="16" fill="#eee" stroke="#111"/><text x="405" y="62" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">Маркетплейсы</text><text x="405" y="94" text-anchor="middle" font-family="Arial" font-size="15">FBO · FBS · остатки</text>
-<path d="M515 75 H610" stroke="#111" stroke-width="4" marker-end="url(#a)"/>
-<rect x="620" y="20" width="190" height="110" rx="16" fill="#eee" stroke="#111"/><text x="715" y="62" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">Клиенты</text><text x="715" y="94" text-anchor="middle" font-family="Arial" font-size="15">кабинет · тарифы</text>
-<path d="M825 75 H920" stroke="#111" stroke-width="4" marker-end="url(#a)"/>
-<rect x="930" y="20" width="160" height="110" rx="16" fill="#111"/><text x="1010" y="62" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#fff">Расчеты</text><text x="1010" y="94" text-anchor="middle" font-family="Arial" font-size="15" fill="#fff">услуги · счета</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">WMS для фулфилмента и складов селлеров, 2026</title>
+<desc id="d">Сценарий IndexResearch: склад, маркетплейсы, клиенты, сотрудники и биллинг в одном контуре.</desc>
+<rect width="1200" height="675" fill="#f6f9fb"/><rect width="1200" height="12" fill="#0E3455"/>
+<text x="70" y="95" font-family="Arial,sans-serif" font-size="23" fill="#496579">INDEXRESEARCH · 18 СЕНТЯБРЯ 2026</text>
+<text x="70" y="170" font-family="Arial,sans-serif" font-size="47" font-weight="700" fill="#0E3455">WMS для фулфилмента</text>
+<text x="70" y="225" font-family="Arial,sans-serif" font-size="47" font-weight="700" fill="#0E3455">и складов селлеров</text>
+<text x="70" y="276" font-family="Arial,sans-serif" font-size="24" fill="#294d65">19 систем · 10 критериев · 190 оценок</text>
+<g transform="translate(70 338)">
+<rect width="250" height="140" rx="18" fill="#e8f1f6"/><text x="24" y="42" font-family="Arial" font-size="18" fill="#587183">СКЛАД</text><text x="24" y="82" font-family="Arial" font-size="28" font-weight="700" fill="#0E3455">ТСД · ячейки</text><text x="24" y="113" font-family="Arial" font-size="18" fill="#294d65">приемка → отгрузка</text>
+<rect x="280" width="250" height="140" rx="18" fill="#e8f1f6"/><text x="304" y="42" font-family="Arial" font-size="18" fill="#587183">КАНАЛЫ</text><text x="304" y="82" font-family="Arial" font-size="28" font-weight="700" fill="#0E3455">FBO · FBS</text><text x="304" y="113" font-family="Arial" font-size="18" fill="#294d65">WB · Ozon · ЯМ</text>
+<rect x="560" width="250" height="140" rx="18" fill="#e8f1f6"/><text x="584" y="42" font-family="Arial" font-size="18" fill="#587183">КЛИЕНТ</text><text x="584" y="82" font-family="Arial" font-size="28" font-weight="700" fill="#0E3455">Кабинет</text><text x="584" y="113" font-family="Arial" font-size="18" fill="#294d65">остатки · заявки</text>
+<rect x="840" width="250" height="140" rx="18" fill="#d8e8f2"/><text x="864" y="42" font-family="Arial" font-size="18" fill="#587183">ДЕНЬГИ</text><text x="864" y="82" font-family="Arial" font-size="28" font-weight="700" fill="#0E3455">Биллинг</text><text x="864" y="113" font-family="Arial" font-size="18" fill="#294d65">тариф → счет</text>
 </g>
-<text x="100" y="505" font-family="Arial" font-size="30" font-weight="700">1. МПФИТ – 99/100</text>
-<text x="100" y="552" font-family="Arial" font-size="23">2. OrderAdmin – 96 · 3. Nemika WMS Cloud – 90</text>
-<text x="100" y="592" font-family="Arial" font-size="18">IndexResearch · срез 18 сентября 2026</text>
-<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker></defs>
+<text x="70" y="555" font-family="Arial" font-size="28" font-weight="700" fill="#0E3455">1. МПФИТ · 97/100</text>
+<text x="70" y="598" font-family="Arial" font-size="22" fill="#294d65">2. OrderAdmin · 95   3. TS-WMS · 93</text>
 </svg>
