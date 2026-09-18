@@ -1,39 +1,44 @@
-source_id,participant,class,title,url,used_for,note
-S001,ALL,prior_publication,Sostav: ТОП-10 WMS для фулфилмент-операторов и складов селлеров,https://www.sostav.ru/blogs/292167/97419,provenance,"Публичный исходный рейтинг 22 июля 2026 года; зафиксированы research question, 10 критериев и веса."
-S002,ALL,related_publication,Sostav: ТОП-10 WMS для мультиклиентского фулфилмента,https://www.sostav.ru/blogs/292167/106448,context,"Отдельный более узкий сценарий от 5 сентября 2026 года; не используется как scoring model текущего выпуска."
-S003,МПФИТ,official,WMS для фулфилмента маркетплейсов,https://mpfit.ru/product/programma-dlya-fulfilmenta-marketpleysov/,C1;C2;C3;C4;C5;C6,"FBO/FBS, единый сток, ТСД, Честный знак, счета селлерам, автоматические правила."
-S004,МПФИТ,official,Тарифы МПФИТ,https://mpfit.ru/pricing/,C3;C8;C9,"Публичные тарифы от 9 990 и 24 990 руб.; кабинет клиента, прайс, счета, документы."
-S005,МПФИТ,official,МПФИТ главная,https://mpfit.ru/,C1;C2;C4;C5;C7,"30+ интеграций, нативное ТСД, единый сток, автоматические правила."
-S006,МПФИТ,official,Сборка заказов FBS,https://mpfit.ru/product/fbs/,C2;C5;C6,"WB, Ozon, Яндекс Маркет, ТСД, КИЗ и единый остаток."
-S007,МПФИТ,client_case,WMS МПФИТ в Преп-Центре,https://prep-center.ru/wms-mpfit-dlya-fulfillmenta/,C4;C7;C10,"Реальное применение на складе 1560 м², FBO/FBS, КИЗ, биллинг и партии клиентов."
-S008,МПФИТ,external,ECOM Expo 2024 exhibitor archive,https://expo.oborot.ru/archive/2024/exhibitor.html,C10,"МПФИТ представлен как WMS для фулфилментов и селлеров."
-S009,OrderAdmin,official,E-Commerce WMS OrderAdmin,https://www.orderadmin.ru/,C1;C2;C3;C4;C5;C7;C8;C9;C10,"Фулфилмент, prep-центры, биллинг, клиентский кабинет, FBO/FBS/DBS, тарифы, демо и клиентские показатели."
-S010,Nemika WMS Cloud,official,Nemika WMS для фулфилмента и 3PL,https://nemikasoft.ru/wms/fulfilment,C1;C3;C4;C5;C7;C8,"Облачная WMS специально для фулфилмента и 3PL; внедрение от 5 дней."
-S011,Nemika WMS Cloud,official,Nemika WMS,https://nemikasoft.ru/wms,C4;C6;C7,"Полный складской цикл, 3PL и мультисклад."
-S012,Nemika WMS Cloud,external,Nemika WMS в каталоге Bitrix24,https://www.bitrix24.ru/apps/app/nemika.nemika_wms/,C10,"Независимый профиль интеграции WMS с CRM."
-S013,Целиком,official,WMS и ERP Целиком для фулфилмента,https://wmscelicom.ru/,C1;C2;C3;C4;C5;C6;C7;C8;C9,"FBO/FBS, Честный знак, клиентские счета, кабинет, ТСД, тарифы и география внедрений."
-S014,TS-WMS,official,WMS для фулфилмент-оператора,https://www.ts-wms.ru/fulfilment,C1;C2;C3;C4;C5;C6;C8,"Фулфилмент, FBO/FBS, кабинет, тарификация, сотрудники, партии и сроки годности."
-S015,TS-WMS,official,Тарифы TS-WMS,https://www.ts-wms.ru/tariffs,C8;C9,"Публичные тарифы для селлеров и фулфилмент-операторов; тест 14 дней."
-S016,TS-WMS,official,Кейсы TS-WMS,https://www.ts-wms.ru/clients,C7;C10,"Fulfillment Ural, Wisebridge, NIKOFF и другие реальные внедрения."
-S017,SkladOS,official,SkladOS облачная WMS для фулфилмента,https://sklados.pro/,C1;C2;C3;C4;C5;C7;C8;C9,"FBO/FBS/DBS, кабинет, тарификация, ТСД, интеграции и тарифы 19 990–59 990 руб."
-S018,WMS-Seller,official,WMS-Seller главная,https://wms-seller.ru/,C1;C2;C3;C4;C5;C6;C9,"FBO/FBS/DBS, КИЗ, ТСД, кабинет селлера, биллинг, 11 990 руб."
-S019,WMS-Seller,official,Биллинг WMS-Seller,https://wms-seller.ru/features/billing,C3,"Каталог услуг, индивидуальные тарифы и расчет хранения."
-S020,WMS-Seller,official,Честный знак WMS-Seller,https://wms-seller.ru/features/kiz,C5;C6,"Data Matrix, привязка к экземпляру, агрегация и короба."
-S021,WMS-Seller,official,Тарифы WMS-Seller,https://wms-seller.ru/pricing,C9,"Публичный тариф WMS для фулфилмента."
-S022,LEAD WMS,official,LEAD WMS,https://leadwms.ru/lead-wms,C4;C5;C6;C7;C8;C10,"3PL/e-com, 500+ складов, 20 лет, до 5 млн строк отгрузки в сутки."
-S023,JUSTDO WMS,official,JUSTDO WMS,https://wms.justdo-service.ru/,C1;C2;C3;C4;C5;C8,"WMS для фулфилмента, расчеты, клиентский кабинет, интеграции и API."
-S024,WMS24,official,Тарифы WMS24,https://wms24.ru/tariffs,C3;C4;C5;C7;C8;C9,"3PL, личный кабинет, API, маркетплейс-коннекторы и тарифы 5 900–45 000 руб."
-S025,AXELOT WMS,official,AXELOT WMS X5,https://www.axelot.ru/product/axelot-wms-x5/,C3;C4;C5;C6;C7;C8,"3PL, биллинг, рабочее место поклажедателя, мобильный клиент и складской цикл."
-S026,AXELOT WMS,official,Функциональность AXELOT WMS X5,https://www.axelot.ru/product/axelot-wms-x5/functionality/,C3;C4;C6,"Раздельный учет поклажедателей и тарификатор услуг."
-S027,AXELOT WMS,case,Онлайнбрендс: AXELOT WMS Cloud,https://www.axelot.ru/project/3pl-operator-onlajnbrends-vnedril-axelot-wms-x5-po-modeli-axelot-cloud/,C7;C10,"Реальный 3PL-кейс с биллингом и учетом поклажедателей."
-S028,TopLog WMS,case,TopLog WMS на фулфилмент-складах Почты России,https://www.toplogwms.ru/projects/fulfilment/pochta-rossii/,C1;C3;C4;C5;C7;C10,"4 фулфилмент-центра, биллинг, API, до 160 тыс. заказов в сутки."
-S029,TopLog WMS,official,TopLog Portal,https://www.toplogwms.ru/portal/,C3;C8,"Портал контрагента для 3PL и фулфилмента."
-S030,TopLog WMS,case,Деловые линии: TopLog WMS,https://www.toplogwms.ru/projects/kommercheskaya-logistika/delovye-linii/,C3;C10,"Биллинг услуг по каждому поклажедателю."
-S031,TopLog WMS,official,Проекты TopLog WMS,https://www.toplogwms.ru/projects/,C7;C10,"200+ масштабных проектов; отдельные категории 3PL и фулфилмента."
-S032,Solvo.WMS,official,Solvo.WMS для 3PL,https://www.solvo.ru/products/solvo-wms/dlya-skladov-otvetstvennogo-hraneniya/,C3;C4;C5;C6;C7;C8;C10,"Мультиклиентность, Solvo.Billing, WEB-клиент, серийный и партионный учет."
-S033,Solvo.WMS,official,Solvo.Billing,https://www.solvo.ru/products/solvo-billing/,C3,"Тарификация операций, договоры, счета и WEB-портал."
-S034,Solvo.WMS,official,Solvo.WMS,https://www.solvo.ru/products/solvo-wms/,C4;C5;C6;C7;C8,"Полный складской цикл, Честный знак, 500 тыс. строк заказов в сутки, 500+ пользователей."
-S035,Solvo.WMS,official,Внедрение Solvo.WMS,https://www.solvo.ru/industry-expertise/vnedrenie-wms-sistemy-sklada/,C7;C10,"Более 350 складов в России и за рубежом."
-S036,SEVCO WMS,external,SEVCO WMS на CeMAT Russia 2026,https://www.cemat-russia.ru/news/avtomatizatsiya-sklada-ot-mifov-k-realnosti-/,C4;C6;C7;C10,"Промышленная WMS, e-commerce и ответственное хранение, маркировка."
-S037,SEVCO WMS,external,SEVCO WMS в каталоге CeMAT Russia 2026,https://www.cemat-russia.ru/exhibition/catalogue/company/28193/,C7;C8;C10,"Команда, промышленная специализация и реальная эксплуатация собственного склада."
-S038,AS WMS,official,AS WMS,https://aswms.ru/aswms,C4;C5;C6;C8,"1С, полный складской цикл, фулфилмент, ответственное хранение, Честный знак, партии и сроки."
+source_id,participant,source_type,url,evidence_summary,checked_at,access
+S001,ALL,prior_publication,https://www.sostav.ru/blogs/292167/97419,"Исходная статья 22.07.2026: исследовательский вопрос, 10 критериев и старая десятка",2026-09-18,public
+S002,ALL,related_publication,https://www.sostav.ru/blogs/292167/106448,"Связанное исследование мультиклиентского фулфилмента 04.09.2026; показывает изменение продукта и рынка",2026-09-18,public
+S003,МПФИТ,official_home,https://mpfit.ru/,"Облачная WMS для фулфилментов и селлеров; нативное ТСД, 30+ интеграций, позиционирование",2026-09-18,public
+S004,МПФИТ,official_fulfillment,https://mpfit.ru/product/programma-dlya-fulfilmenta-marketpleysov/,"Единый сток, адресное хранение, автоматические правила, клиенты, прайсы и документы",2026-09-18,public
+S005,МПФИТ,official_fbs,https://mpfit.ru/product/fbs/,"FBS Wildberries/Ozon/Яндекс Маркет, единый сток, задания на сборку и синхронизация",2026-09-18,public
+S006,МПФИТ,official_pricing,https://mpfit.ru/price-list/,"Тарифы 9 990/24 990 и выше; состав пакетов для селлера и фулфилмента",2026-09-18,public
+S007,МПФИТ,official_marketplace,https://mpfit.ru/product/wms-dlya-wildberries/,"Складской процесс Wildberries, ТСД, маркировка и передача результата в маркетплейс",2026-09-18,public
+S008,OrderAdmin,official_home,https://www.orderadmin.ru/,"E-commerce WMS: биллинг, клиентский кабинет, тарифы и marketplace-интеграции",2026-09-18,public
+S009,OrderAdmin,official_home_alt,https://orderadmin.ru/,"FBO/FBS/DBS Wildberries, Ozon и Яндекс Маркет; SaaS-тарифы и onboarding",2026-09-18,public
+S010,TS-WMS,official_pricing,https://www.ts-wms.ru/tariffs,"Фулфилмент-тарифы, личный кабинет, счета, расходники, FBO/FBS и API",2026-09-18,public
+S011,TS-WMS,official_fulfillment,https://www.ts-wms.ru/fulfilment,"Отдельное решение фулфилмента, FBO/FBS, клиентские задания и финансы",2026-09-18,public
+S012,TS-WMS,official_update,https://ts-wms.ru/blog/tpost/jybjhaleh1-avtomaticheskaya-tarifikatsiya-fbs,"Автоматическая тарификация FBS-отгрузок по правилам клиента",2026-09-18,public
+S013,WMS-Seller,official_home,https://wms-seller.ru/,"WMS для фулфилмента и аналитика селлера; склад, FBS, клиенты, биллинг, ТСД, Честный знак",2026-09-18,public
+S014,WMS-Seller,official_pricing,https://wms-seller.ru/pricing,"11 990 ₽/мес; адресное хранение, FBO/FBS/DBS, КИЗ, кабинет селлера, УПД",2026-09-18,public
+S015,WMS-Seller,official_billing,https://wms-seller.ru/features/billing,"Персональные тарифы, хранение, счета, акт сверки и УПД-XML",2026-09-18,public
+S016,NWMS,official_home,https://nwms.ru/,"FBO/FBS/DBS, интеграции WB/Ozon/Яндекс Маркет, демо, 50+ складов",2026-09-18,public
+S017,NWMS,official_pricing,https://nwms.ru/prices/,"Тарифы 10-65 тыс., биллинг, отчеты клиентам, API, on-premise; разработчик ООО ОРДЕРАДМИН.РУ",2026-09-18,public
+S018,Fulcore,official_home,https://www.fulcore.ru/,"WMS+OMS+кабинет+биллинг+себестоимость+доставка; запуск базовой стадии от 60 дней",2026-09-18,public
+S019,SelSup,official_fulfillment,https://selsup.ru/programma-dlya-fulfilmenta/,"FBO/FBS, адресное хранение, ТСД, маркировка, кабинет клиента, внедрение под ключ",2026-09-18,public
+S020,SelSup,official_pricing,https://selsup.ru/tarify-v2/,"Публичные тарифы основной платформы; цена фулфилмент-версии по запросу",2026-09-18,public
+S021,ЯКурьер WMS,official_fulfillment,https://yacurier.com/programma-skladskogo-ucheta-dlya-fulfilment-operatorov-i-ritejlerov/,"WMS для фулфилментов и селлеров, FBO/FBS, кабинеты, биллинг, тарифы",2026-09-18,public
+S022,ЯКурьер WMS,official_wms,https://yacurier.com/wms_skladskaya_programma/,"Функционал, клиенты, FFFest 2024-2025 и продуктовая активность",2026-09-18,public
+S023,ALL IN,official_home,https://allin-wms.ru/,"Фулфилмент WMS: WB/Ozon, ТСД, КИЗ, кабинеты, биллинг, счета, API",2026-09-18,public
+S024,Vorm WMS,official_fulfillment,https://vormwms.ru/resheniya/wms-dlya-fulfilmenta/,"Раздельный учет клиентов, FBO/FBS, ТСД, биллинг и API",2026-09-18,public
+S025,Vorm WMS,official_home,https://vormwms.ru/,"Подписка от 70 000 ₽, поддержка, Честный знак, 1С, кейсы внедрения 20-25 дней",2026-09-18,public
+S026,Nemika WMS Cloud,public_case,https://ru.linkedin.com/posts/nemika_%D0%B8%D1%82%D0%BE%D0%B3%D0%B8-%D0%B3%D0%BE%D0%B4%D0%B0-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5-activity-7408153086076260352-JxkB,"Свежий кейс: рост пропускной способности склада после внедрения",2026-09-18,public
+S027,Nemika WMS Cloud,public_product,https://ru.linkedin.com/posts/nemika_nemika-wms-cloud-%D0%B2%D1%8B%D0%B3%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-activity-7439681751893028864-6Ik1,"Адаптируемая WMS, настройка процессов, интеграции и масштабирование",2026-09-18,public
+S028,WMS24,official_pricing,https://wms24.ru/tariffs,"Тарифы от 5 900 ₽, 3PL, клиентский кабинет, API, marketplace-подключения",2026-09-18,public
+S029,WMS24,official_features,https://wms24.ru/blog/c/skladskaya-logistika/,"Адресное хранение, ТСД, 3PL и клиентский кабинет",2026-09-18,public
+S030,TopLog WMS,official_home,https://www.toplogwms.ru/,"Корпоративная WMS, 3 млн операций в сутки, 600 пользователей, 24/7 поддержка",2026-09-18,public
+S031,TopLog WMS,official_fulfillment_case,https://www.toplogwms.ru/projects/fulfilment/pochta-rossii/,"Сеть фулфилмент-центров Почты России, биллинг, API, ТСД и высокая нагрузка",2026-09-18,public
+S032,TopLog WMS,official_projects,https://www.toplogwms.ru/projects/,"200+ проектов и отраслевые кейсы",2026-09-18,public
+S033,JUSTDO WMS,official_home,https://wms.justdo-service.ru/,"FBO/FBS Wildberries и Ozon; часть интеграций в разработке",2026-09-18,public
+S034,LEAD WMS,official_product,https://leadwms.ru/lead-wms,"500+ складов, 20 лет, 3PL/e-com, WCS/роботы, масштабирование",2026-09-18,public
+S035,InStock WMS,official_case,https://www.instocktech.ru/klienty/avtozapchasti/sklad-kompanii-binom-upravlyaetsya-instock-wms/,"FBO/FBS на реальном складе, ТСД и разные политики отбора",2026-09-18,public
+S036,InStock WMS,official_vertical,https://www.instocktech.ru/wms/vnedrenie-wms-dlya-sklada-odezhdy-i-obuvi/,"FBO/FBS, Честный знак, возвраты, ТСД и 1С/ERP",2026-09-18,public
+S037,InStock WMS,official_case_2,https://www.instocktech.ru/klienty/distribyutorskie-kompanii/avtomatizaczii-skladskih-proczessov-na-sklade-kompanii-muztorg/,"Маркетплейсы и интернет-магазин, FBO/FBS, серийные номера",2026-09-18,public
+S038,SmartFulfill,official_home,https://smartfulfil.ru/,"PIM+OMS+WMS; FBO/FBS/realFBS; фулфилмент-тариф 14 990 ₽",2026-09-18,public
+S039,SmartFulfill,official_kb,https://smartfulfil.ru/knowledge-base?for=ff,"Кабинет оператора, клиенты, склад, ТСД, прайс услуг, лицевые счета",2026-09-18,public
+S040,SmartFulfill,official_news,https://smartfulfil.ru/news/zayavka-fulfilment-operatora-s-sayta,"Свежий запуск подключения фулфилмент-операторов 01.09.2026",2026-09-18,public
+S041,AS WMS,official_product,https://aswms.ru/aswms,"Ответственное хранение, фулфилмент, биллинг, партии, сроки годности, Честный знак",2026-09-18,public
+S042,AS WMS,external_case,https://v8.1c.ru/metod/cases/kak-za-5-mesyacev-perevesti-uchet-na-sklade-otvetstvennogo-hraneniya-v-wms-sistemu-s-billingom-i-kontejnerami.htm,"Свежий кейс ответственного хранения, биллинг и контейнеры",2026-09-18,public
+S043,SEVCO WMS,external_current,https://www.translogistica-ural.ru/ru-RU/press/news/17967.aspx,"SEVCO WMS: актуальное отраслевое представление 2025, маркировка и полный складской цикл",2026-09-18,public
